@@ -1,9 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
-
+/// <summary>
+/// Interaction interface
+/// </summary>
 public interface IInteraction
 {
+    //Method within interface
     public void Interact();
 }
