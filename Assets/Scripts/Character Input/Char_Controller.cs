@@ -112,17 +112,6 @@ public class Char_Controller : MonoBehaviour
         }
     }
 
-
-    /// <summary>
-    /// Draws gizmos in scene view to display interaction range for testing
-    /// </summary>
-    private void OnDrawGizmosSelected()
-    {
-        //Draws circle around player to show interaction range
-        UnityEditor.Handles.DrawWireDisc(transform.position, Vector3.forward, interactionRange);
-    }
-
-
     /// <summary>
     /// Enable method for new input system
     /// </summary>
